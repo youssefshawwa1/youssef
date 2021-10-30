@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body header h1 {
+    transition: 0.3s;
+    text-align: center;
+    padding: 1px;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 1px solid #696969;
+}
+body header h1:hover {
+    color: #696969;
+}
+.nav {
+    background-color: #000000;
+    overflow: auto;
+    background-attachment: fixed;
+}
+.nav a {
+    float: left;
+    text-align: center;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    color: #ffffff;
+    font-size: 26px;  
+    width: 25%;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: #696969;
+    color: #000000;
+}
+.home {
+    background-color: #8b8b8b
+}
+body section h2{
+    margin: 0px;
+    text-align: center;
+}
+
+li {
+    width: 100px;
+    position: absolute;
+    left: -70px;
+    transition: 0.3s;
+    padding: 10px;
+    font-size: 15px;
+    border-radius:  0 5px 5px 0;
+    background-color: #000000;
+    text-align: center;
+    color: #000000;
+}
+li:hover {
+    left: 0;
+    color: #ffffff;
+}
+#li1 {
+    top: 150px;
+   
+}
+#li2 {
+    top: 200px;
+}
+#li3 {
+    top: 250px;
+}
+#li4 {
+    top: 300px;
+}
+#fa {
+    position: absolute;
+    width: 200px;
+    background-color: #000000;
+    color: #000000;
+    padding: 10px;
+    left: -100px;
+    top: 100px;
+    border-radius:  0 5px 5px 0;
+    transition: 0.5s;
+    font-size: 17px;
+
+}
+#fa:hover{
+    left: 0;
+    color: #ffffff;
+    
+}
+
+section {
+    text-align: center;
+    margin: 10px;
+    font-style: italic bold;
+    font-size: 150%;
+}
+#sec {
+    margin: 20px;
+}
+
+footer  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0px 10px 0px;
+    background-color: #5c5959;
+    width: 100%;
+    border-top:#000000 solid 2px;
+}
+#fp {
+    background-color: #000000;
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    padding: 5px;;
+}
+footer a {
+    text-decoration: none;
+    padding: 5px ;
+
+}
